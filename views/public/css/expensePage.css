@@ -1,0 +1,35 @@
+body{
+    display: inline;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.monthly-report .yearly-report
+{
+    width: 90vw;
+}
+table{
+    border-collapse: collapse;
+    
+    width: 80vw;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+th, td{
+    border: 1px solid black;
+    text-align: left;
+}
+th{
+    background-color: #1a0f41;
+    color: aliceblue;
+}
+
+tbody tr:hover{
+background-color: rgb(164, 164, 192);
+}
+.header{
+    display: flex;
+    justify-content: center;
+}

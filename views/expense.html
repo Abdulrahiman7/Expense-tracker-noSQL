@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="./public/css/expense.css">
+</head>
+<body>
+    <header>
+    
+        <div class="heading">
+            <h1>Expense Tracker</h1>
+             <h3>
+            Your expenses are safe with us
+             </h3>
+        </div>
+        <!-- <a href="./login.html">
+        <button>logout</button>
+        </a> -->
+    </header>
+    <div class="main">
+   
+        <div class="form">
+            <form id="form">
+                <div class="input">
+                <h3>Amount</h3>
+                <input type="number" id="amount">
+                <h3>Description</h3>
+                <input type="text" id="description">
+                <h3>Category</h3>
+                <select id="category">
+                    <option value="food" selected>Food</option>
+                    <option value="fuel">Fuel</option>
+                    <option value="grocery">Grocery</option>
+                    <option value="travel">Travel</option>
+                    <option value="hotel">Hotel</option>
+                    <option value="party">Party</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="other">other</option>
+                </select>
+                <button type="submit">Add Expense</button>
+            </div>
+            </form>
+        </div>
+        
+    
+   
+    <div class="leaderboard-expenses">
+        <div id="leaderboard-list">
+            <div class="buy" id="buydiv">
+                Buy Premium to see all the leaders and their expenses.
+                <button id="buy">buy now</button>
+            </div>
+        </div>
+        <br>
+        <div id="expense-block">
+            <div class="page-limit">
+                <h5>Page Limit</h5>
+                <select id="page-Limit">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div id="expense-list"></div>
+            <div id="page-list"></div>
+        </div>
+    </div>
+    
+    
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./public/js/expense.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</body>
+</html>

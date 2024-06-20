@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+header
+{
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgb(6, 39, 61), rgb(9, 21, 40));
+    color: aliceblue;
+}
+.form 
+{
+    height: 200px;
+    min-width:60vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 15vw;
+    color: rgb(0, 0, 0);
+
+}
+.main
+{
+    display: flex;
+    background:linear-gradient(to bottom, bisque, white);
+}
+
+.page-limit
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30vh;
+    margin-left: 30px ;
+}
+#page-Limit
+{
+    height: 20px;
+   
+}
+.leaderboard-expenses
+{
+    text-align: center;
+    min-width: 40vw;
+    height: 100vh;
+    justify-content:center;
+    background: linear-gradient(to bottom, rgb(6, 39, 61), white);
+    color: white;
+    
+}
